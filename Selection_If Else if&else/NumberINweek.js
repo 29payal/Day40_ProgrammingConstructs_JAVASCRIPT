@@ -1,4 +1,4 @@
-let DayNumber= Math.floor(Math.random()*7);
+let DayNumber= Math.floor(Math.random()*7)+1;
 console.log("Number : " +DayNumber);
 if(DayNumber==1)
 {
