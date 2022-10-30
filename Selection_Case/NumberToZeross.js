@@ -2,7 +2,7 @@ const pro = require("prompt-sync");
  const prompt = pro();
 
 let number = prompt("Enter a Number : ");  
-switch (true)   //like nested if-else
+switch (true)   
 {
     case (number>0 && number <=9) :
         console.log("Unit");
